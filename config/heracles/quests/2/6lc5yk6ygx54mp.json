@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "5by66yw45yqg6auy5rip"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "minecraft:netherite_scrap",
+      "amount": 2,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "bb": {
+      "item": {
+        "id": "chemlib:hydrochloric_acid",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "看起来很旧了……",
+      "等等，你刚做的？！"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          660,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:netherite_scrap",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "远古遗物"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

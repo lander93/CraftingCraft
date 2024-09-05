@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "5lin5piv6k6p5l2g54is55qe"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "anvilcraft:tungsten_nugget",
+      "amount": 9,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "地狱的矿物，应该高温耐受"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          540,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "anvilcraft:tungsten_nugget",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "无中生W"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "5asn5zyw56ko54mh",
+    "5zue5by55asn5bii"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "create:andesite_alloy",
+      "amount": 8,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "bb": {
+      "item": {
+        "id": "create:goggles",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "这是一个安山合金，它很贵，而且很麻烦",
+      "",
+      "但只是相对于这一章而言"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          780,
+          -60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:andesite_alloy",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "安山合金plus"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

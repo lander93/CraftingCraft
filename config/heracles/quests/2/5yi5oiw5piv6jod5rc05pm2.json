@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "5lq66ycg5rc05pm25rse"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "anvilcraft:sapphire",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "我去，pvp大佬"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          120,
+          60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "anvilcraft:sapphire",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "又或是蓝水晶"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

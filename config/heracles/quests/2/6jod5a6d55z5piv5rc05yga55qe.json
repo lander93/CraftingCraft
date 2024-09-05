@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "5yi5oiw5piv6jod5rc05pm2"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "minecraft:water_bucket",
+      "amount": 2,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "bb": {
+      "item": {
+        "id": "mekanism:clump_iron",
+        "count": 32
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "2桶水，你明白该干什么"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          180,
+          60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:water_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "蓝宝石是水做的"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

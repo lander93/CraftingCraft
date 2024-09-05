@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "6lc5yk6ygx54mp",
+    "5ra5ywj77ym5yr5bce77yb"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "anvilcraft:impact_pile",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "bb": {
+      "item": {
+        "id": "anvilcraft:circuit_board",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "铁砧砸虚空？疯狂的想法，可确实起了点作用，起码你不用拿铁砧砸紫水晶母岩得铁锭了",
+      "哦，这是……新的矿物？"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          660,
+          -60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "anvilcraft:impact_pile",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "虚空的力量？"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "5oml5yqo6lh5ruk"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "minecraft:terracotta",
+      "amount": 2,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "加水搓一搓再烧一下，就有陶瓦了"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          420,
+          -180
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:terracotta",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "高级建材"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

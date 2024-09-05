@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "5ym5lia56en5yyw5a2m54mp6lso"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "minecraft:cactus",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "想不到吧，仙人掌可以合成出Ni"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          420,
+          60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:cactus",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "富含矿物质"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

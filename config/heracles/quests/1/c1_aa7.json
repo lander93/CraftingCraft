@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "c1_aa5"
+  ],
+  "tasks": {
+    "C1_AA7_item_1": {
+      "type": "heracles:item",
+      "item": "minecraft:oak_sapling",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "aad": {
+      "item": {
+        "id": "minecraft:bone_meal",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "按过去的记忆，你应该获得树苗，然后得到原木，合成工作台……",
+      "/4/但这里很不对劲/4/"
+    ],
+    "groups": {
+      "章节1 --- 虚空法则": {
+        "position": [
+          240,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "quark:ancient_sapling",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "混乱的记忆"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

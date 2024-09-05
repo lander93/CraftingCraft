@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "5lia56en5yyw5a2m54mp6lso"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "chemlib:keratin",
+      "amount": 2,
+      "collection": "AUTOMATIC"
+    },
+    "ab": {
+      "type": "heracles:item",
+      "item": "chemlib:sulfur_dioxide",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "bb": {
+      "item": {
+        "id": "chemlib:hydrochloric_acid",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "适合护肤品",
+      "",
+      "所需的SO2可以通过手持空玻璃瓶，右键岩浆块获得（上方必须是空气）"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          420,
+          -60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "chemlib:keratin",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "套娃的化学物质"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

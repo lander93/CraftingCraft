@@ -1,0 +1,89 @@
+{
+  "dependencies": [
+    "c1_aa9"
+  ],
+  "tasks": {
+    "c1_ab2_item_1": {
+      "type": "heracles:item",
+      "item": "mekanism:clump_iron",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "aag": {
+      "item": {
+        "id": "anvilcraft:amethyst_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "有了紫水晶，你就可以制作更好用的工具，再用镐子敲破紫水晶——铁碎块！",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "--~~好扯淡~~--"
+    ],
+    "groups": {
+      "章节1 --- 虚空法则": {
+        "position": [
+          420,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "chemlib:iron",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "富含铁元素"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

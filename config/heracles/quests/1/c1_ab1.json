@@ -1,0 +1,46 @@
+{
+  "dependencies": [
+    "c1_aa9"
+  ],
+  "tasks": {
+    "c1_ab1_check": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "你不是只能用游戏内的机制，比如说：连点器"
+    ],
+    "groups": {
+      "章节1 --- 虚空法则": {
+        "position": [
+          360,
+          -60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "提示"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

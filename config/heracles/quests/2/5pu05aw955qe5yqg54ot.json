@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "5yq5piv5lia5liq5pmu6yca55qe55s16lev5p2",
+    "6auy57qn5bu65p2q"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "anvilcraft:heater",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "bb": {
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "科学的力量，完美碾压篝火"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          420,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "anvilcraft:heater",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "更好的加热"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

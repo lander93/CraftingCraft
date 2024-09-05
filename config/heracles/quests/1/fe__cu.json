@@ -1,0 +1,75 @@
+{
+  "dependencies": [
+    "5p2lhardcore55qe"
+  ],
+  "tasks": {
+    "huagangyan": {
+      "type": "heracles:item",
+      "item": "minecraft:granite",
+      "amount": 6,
+      "collection": "AUTOMATIC"
+    },
+    "hongsha": {
+      "type": "heracles:item",
+      "item": "minecraft:red_sand",
+      "amount": 6,
+      "collection": "AUTOMATIC"
+    },
+    "tongd": {
+      "type": "heracles:item",
+      "item": "minecraft:copper_ingot",
+      "amount": 3,
+      "collection": "AUTOMATIC"
+    },
+    "shitou": {
+      "type": "heracles:item",
+      "item": "minecraft:stone",
+      "amount": 48,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "aao": {
+      "item": {
+        "id": "minecraft:raw_copper",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "再套一层得到铜锭"
+    ],
+    "groups": {
+      "章节1 --- 虚空法则": {
+        "position": [
+          900,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:copper_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fe => Cu"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "5z656ga6zob56cn5ase55cg"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "anvilcraft:heliostats",
+      "amount": 64,
+      "collection": "AUTOMATIC"
+    },
+    "ab": {
+      "type": "heracles:item",
+      "item": "anvilcraft:thermoelectric_converter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "用定日镜右键钨块设置照射位置，放在地上就可以反射太阳光来加热钨块，如果旁边有热电转换器就可以发电"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          -120,
+          60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "anvilcraft:heater",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "最好的发电"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

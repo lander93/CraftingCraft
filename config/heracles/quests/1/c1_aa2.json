@@ -1,0 +1,89 @@
+{
+  "dependencies": [
+    "c1_aa1"
+  ],
+  "tasks": {
+    "C1_AA2_item_1": {
+      "type": "heracles:item",
+      "item": "bloodmagic:bloodlightsigil",
+      "nbt": {
+        "binding": {
+          "name": "变成光刺穿对立小姐",
+          "id": [
+            1847884089,
+            1507932606,
+            -1840152283,
+            85538633
+          ]
+        },
+        "ticksRemaining": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "C1_AA2_item_3": {
+      "type": "heracles:item",
+      "item": "thermal:wrench",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "C1_AA2_item_2": {
+      "type": "heracles:item",
+      "item": "chemlib:periodic_table",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "aaa": {
+      "item": {
+        "id": "thermal:xp_crystal",
+        "count": 1,
+        "nbt": {}
+      },
+      "type": "heracles:item"
+    },
+    "bb": {
+      "item": {
+        "id": "ringsofascension:ring_flight",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "你肯定看见了一些东西，试着摸索一下，肯定会有所发现"
+    ],
+    "groups": {
+      "章节1 --- 虚空法则": {
+        "position": [
+          60,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "expatternprovider:fishbig",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "一份馈赠？"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

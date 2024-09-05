@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "56ys5lia56en6yw4"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "chemlib:protein",
+      "amount": 8,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "bb": {
+      "item": {
+        "id": "chemlib:hydrochloric_acid",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "我可不知道史莱姆里怎么有蛋白质"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          360,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "chemlib:protein",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "又一种化学物质"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

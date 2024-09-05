@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "fe__cu"
+  ],
+  "tasks": {
+    "tiezhenchui": {
+      "type": "heracles:item",
+      "item": "anvilcraft:anvil_hammer",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "aap": {
+      "item": {
+        "id": "anvilcraft:ferrite_core_magnet_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "一柄锤子？有趣……看来你可以开启下一阶段了……"
+    ],
+    "groups": {
+      "章节1 --- 虚空法则": {
+        "position": [
+          960,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "anvilcraft:anvil_hammer",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "开锤！"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

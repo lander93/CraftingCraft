@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "c1_ab2"
+  ],
+  "tasks": {
+    "hongshi": {
+      "type": "heracles:item",
+      "item": "minecraft:redstone",
+      "amount": 6,
+      "collection": "AUTOMATIC"
+    },
+    "石头": {
+      "type": "heracles:item",
+      "item": "minecraft:cobblestone",
+      "amount": 6,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "aah": {
+      "item": {
+        "id": "chemlib:carbonate",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "你看着合成红石所需的碳元素不知所措，直到你突发奇想，学习老祖宗的智慧，左右手拿上木棍，疯狂右键原木，这应该会有用吧",
+      "",
+      "",
+      "/4/虚空法则：||aaaa||永无止境的套娃||aaaa||/4/"
+    ],
+    "groups": {
+      "章节1 --- 虚空法则": {
+        "position": [
+          480,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mekanism_extras:alloy_spectrum",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "套娃开始"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

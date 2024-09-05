@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "maga"
+  ],
+  "tasks": {
+    "jiyanfen": {
+      "type": "heracles:item",
+      "item": "enderio:grains_of_infinity",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "aak": {
+      "item": {
+        "id": "chemlib:carbon",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "在基岩上点火获得无限粉，你问火从哪里来？你忘了老祖宗的法子了吗"
+    ],
+    "groups": {
+      "章节1 --- 虚空法则": {
+        "position": [
+          720,
+          -25
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enderio:grains_of_infinity",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "获得基岩……无限粉？"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

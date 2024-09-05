@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "6i635b6x5z65bkp4ocm4ocm5peg6zmq57kj77yf",
+    "5y6l57yp55z5as0"
+  ],
+  "tasks": {
+    "shenbyronglu": {
+      "type": "heracles:item",
+      "item": "quark:deepslate_furnace",
+      "amount": 3,
+      "collection": "AUTOMATIC"
+    },
+    "yuanshihejinglu": {
+      "type": "heracles:item",
+      "item": "enderio:primitive_alloy_smelter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "aam": {
+      "item": {
+        "id": "thermal:coal_coke",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "这是一个合金炉v1.0，燃料问题你得自己想"
+    ],
+    "groups": {
+      "章节1 --- 虚空法则": {
+        "position": [
+          780,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enderio:primitive_alloy_smelter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "高级熔炉"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

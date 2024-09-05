@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "maga"
+  ],
+  "tasks": {
+    "shenbanyan": {
+      "type": "heracles:item",
+      "item": "minecraft:cobbled_deepslate",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "aal": {
+      "item": {
+        "id": "minecraft:stone",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "将圆石放在火焰上面一格，圆石会被转化为石头，用铁砧砸两个同列的石头可以获得深板岩"
+    ],
+    "groups": {
+      "章节1 --- 虚空法则": {
+        "position": [
+          720,
+          25
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:cobbled_deepslate",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "压缩石头"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,58 @@
+{
+  // The default offset from 0, 0 to generate the islands
+  // Can be used to generate them in the middle of .mca files
+  // This applies on top of the "offset" defined in each template
+  "defaultOffset": 0,
+  
+  // The template which will be used for spawn only
+  // Example: 
+  // {
+  //     "name": "default",
+  //     "desc": "",
+  //     "file": "default.nbt",
+  //     "spawns": "default",
+  //     "offset": [ 0, 0, 0 ],
+  //     "surroundingMargin": 0,
+  //     "surroundingBlocks": "default"
+  // }
+  "spawn": null,
+  
+  "spawns": {
+    "exported_at_2024-08-25T12:16:58+0800": {
+      "north": [],
+      "east": [
+        [ 9, 4, 8 ]
+      ],
+      "south": [],
+      "west": []
+    }
+  },
+  
+  // A list of file names for templates which should spread around an island
+  // Instead of "minOffset" and "maxOffset" with same values, you could also just use "offset".
+  // "origin" defines from where the offset will be used. Possible values are "zero" and "center", where "zero" is default.
+  // Example: 
+  // {
+  //     "file": "default.nbt",
+  //     "minOffset": [ -6, 3, 5 ],
+  //     "maxOffset": [ 4, 10, 3 ],
+  //     "origin": "center"
+  // }
+  "spreads": {
+    "default": []
+  },
+  
+  // A list of blocks which can be used to surround islands/caves.
+  "surroundingBlocks": {
+    "default": []
+  },
+  
+  // The list of templates being available. The first entry is the default template.
+  "templates": [
+    {
+      "name": "sky_block",
+      "file": "sky_block.nbt",
+      "spawns": "exported_at_2024-08-25T12:16:58+0800"
+    }
+  ]
+}

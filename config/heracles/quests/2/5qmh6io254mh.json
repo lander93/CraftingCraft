@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "5qc46io956d54gr"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "anvilcraft:hardend_resin",
+      "amount": 12,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "或者叫树脂片"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          300,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "anvilcraft:hardend_resin",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "橡胶片"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "dependencies": [
+    "5z656ga6zob56cn5ase55cg"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "磁铁块及其变种可以吸起铁砧，接受红石信号就会失去磁性",
+      "",
+      "铁块被雷击会转变为空心磁铁块，和铁锭合成铁芯磁铁块，放在地上会变为磁铁块，这样可以实现磁铁锭的增产"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          -60,
+          -60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "anvilcraft:magnet_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "磁力"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

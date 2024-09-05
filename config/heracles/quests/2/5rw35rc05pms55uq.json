@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "6jod5a6d55z5piv5rc05yga55qe"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "chemlib:sodium_chloride",
+      "amount": 32,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "你也注意到了，制作NaCl需要岩浆块，但它在哪里呢？",
+      "",
+      "等等，是不是还有一个地方你没有检查过？关于这座小岛"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          240,
+          60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "chemlib:sodium_chloride",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "海水晒盐"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "546v5ld55qe5lq66ycg55qu"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "minecraft:smithing_table",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "bb": {
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "用来升级紫水晶工具"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          480,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:smithing_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "获得升级"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "6ziy54ig546755kd"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "anvilcraft:ruby_laser",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    },
+    "ab": {
+      "type": "heracles:item",
+      "item": "anvilcraft:ruby_prism",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "bb": {
+      "item": {
+        "id": "anvilcraft:circuit_board",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "激光器：发射激光，耗电大户",
+      "棱镜：反射激光，融合升华"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          660,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "anvilcraft:ruby_laser",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "激光，发射！"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

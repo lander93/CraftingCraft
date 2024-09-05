@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "5am5zcr5554mp6lso"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "chemlib:nitrate",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "bb": {
+      "item": {
+        "id": "chemlib:hydrochloric_acid",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "生物固氮技术，小子！"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          480,
+          60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "chemlib:nitrate",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "只要稍加利用……"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

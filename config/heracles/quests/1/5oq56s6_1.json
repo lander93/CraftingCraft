@@ -1,0 +1,47 @@
+{
+  "dependencies": [
+    "5zci5oiq77yb4ocm4ocm5yw77yf"
+  ],
+  "tasks": {
+    "check": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "问题来了，合成台需要红石信号，可拉杆和按钮的配方不在了，该从哪里得到红石信号呢？",
+      "我有个主意，你可以用铁碎块合成一个铁按钮，相当好用"
+    ],
+    "groups": {
+      "章节1 --- 虚空法则": {
+        "position": [
+          600,
+          -60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "提示"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

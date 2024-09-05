@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "5a86k66"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "minecraft:calcite",
+      "amount": 8,
+      "collection": "AUTOMATIC"
+    },
+    "ab": {
+      "type": "heracles:item",
+      "item": "anvilcraft:geode",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "用这样一个多方块结构可以获取晶洞：",
+      "",
+      "以紫水晶母岩为中心，",
+      "空气    空气    方解石    空气    空气",
+      "空气    方解石    紫水晶块    方解石    空气",
+      "方解石    紫水晶块    紫水晶母岩    紫水晶块    空气",
+      "空气    方解石    紫水晶块    方解石    空气",
+      "空气    空气    方解石    空气    空气",
+      "",
+      "手持至少8个紫水晶右键紫水晶母岩，可以获得晶洞，这一操作不会消耗多方块结构",
+      "",
+      "请不要告诉我紫水晶母岩没了"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          60,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "anvilcraft:geode",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "人造水晶洞"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

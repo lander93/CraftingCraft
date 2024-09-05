@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "56ys5lia56en6yw4"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "chemlib:aluminum",
+      "amount": 8,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "看来你的手还挺智能，自带过滤升级，把杂质全过滤了"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          360,
+          -180
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "chemlib:aluminum",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "手动过滤"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

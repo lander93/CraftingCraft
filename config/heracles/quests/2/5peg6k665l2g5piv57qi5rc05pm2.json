@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "5lq66ycg5rc05pm25rse"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "anvilcraft:ruby",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "标题在说什么"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          120,
+          -60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "anvilcraft:ruby",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "无论你是红水晶"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

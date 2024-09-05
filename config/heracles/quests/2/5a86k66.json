@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "5bya6zsk77yb"
+  ],
+  "tasks": {
+    "ada": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "bb": {
+      "item": {
+        "id": "anvilcraft:guide_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "铁砧工艺(AnvilCraft)是一个以铁砧为核心的新兴科技模组，为原版mc增加了许多特性和玩法",
+      "左边的任务会一一介绍这些玩法",
+      "右边的任务会指引你进入下一阶段"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "anvilcraft:guide_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "导论"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

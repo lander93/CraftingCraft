@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "6ly5piv6bue5rc05pm2"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "anvilcraft:piezoelectric_crystal",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "bb": {
+      "item": {
+        "id": "mekanism:clump_iron",
+        "count": 32
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "如果你不嫌麻烦，可以试试另一个配方"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          180,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "anvilcraft:piezoelectric_crystal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "雷电之力"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

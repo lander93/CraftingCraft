@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "5qmh6io254mh"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "anvilcraft:circuit_board",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "bb": {
+      "item": {
+        "id": "anvilcraft:circuit_board",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "恭喜你又开启了一个套娃体系"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          360,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "anvilcraft:circuit_board",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "只是一个普通的电路板"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

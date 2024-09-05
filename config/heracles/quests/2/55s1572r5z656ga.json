@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "5z656ga6zob56cn5ase55cg"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "anvilcraft:charge_collector",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "（以下内容摘自mc百科）",
+      "",
+      "本模组的电网组成非常简单，没有各种线缆，一般含有发电器（比如发电装置和集电器），用电器（加热器，自动合成器这种）和输电杆。",
+      "输电杆的工作范围可认为就是电网的覆盖范围（无限电波），通过在头盔栏佩戴铁砧锤来查看输电杆范围，由输电杆将发电器和用电器无线接入电网中，输电杆范围内有其他电网原件时，将那个原件纳入电网，两个输电杆的范围有任何重合部分都可以将两个输电杆连入同一个电网，注意，需要重合，而不是接触就行。",
+      "",
+      "电力系统使用的基本单位为KW（千瓦），仅用于本模组，和其他有类似单位的模组没有任何关系，电能难以大量存储",
+      "电网中只要用电功率不大于发电功率就能正常运行，如果过载，整个电网就会瘫痪，所有输电杆都会关闭，此时需要关闭电网中部分用电器来减小负荷或者增加发电设施。"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          -120,
+          -60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "anvilcraft:charge_collector",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "电网基础"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

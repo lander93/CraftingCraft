@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "5ymn5y2r55qe5zci5oiq5pa55byp"
+  ],
+  "tasks": {
+    "liuyeye": {
+      "type": "heracles:item",
+      "item": "quark:crafter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "aai": {
+      "item": {
+        "id": "mekanism:clump_iron",
+        "count": 32
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "合成合成器来解锁更多配方！",
+      "",
+      "",
+      "/4/虚空法则：没有“工作台”/4/"
+    ],
+    "groups": {
+      "章节1 --- 虚空法则": {
+        "position": [
+          600,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:molecular_assembler",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "合成！……台？"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "c1_aa8"
+  ],
+  "tasks": {
+    "c1_aa9_item_1": {
+      "type": "heracles:item",
+      "item": "minecraft:amethyst_shard",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    },
+    "c1_aa9_block_1": {
+      "block": "minecraft:budding_amethyst",
+      "state": {},
+      "type": "heracles:block_interaction"
+    }
+  },
+  "rewards": {
+    "aaf": {
+      "item": {
+        "id": "botania:pebble",
+        "count": 256,
+        "nbt": {
+          "Enchantments": [
+            {
+              "lvl": 3,
+              "id": "minecraft:fortune"
+            }
+          ],
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "如果你不瞎，那你应该看得到上面的紫水晶母岩，别告诉我你把它挖了",
+      "",
+      "",
+      "/4/虚空法则：可以手持石子从紫水晶母岩中获取无限的紫水晶/4/"
+    ],
+    "groups": {
+      "章节1 --- 虚空法则": {
+        "position": [
+          361,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:amethyst_shard",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "比石块锋利"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

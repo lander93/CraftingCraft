@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "c1_aa7"
+  ],
+  "tasks": {
+    "c1_aa8_item_1": {
+      "type": "heracles:item",
+      "item": "minecraft:moss_block",
+      "amount": 8,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "aae": {
+      "item": {
+        "id": "minecraft:moss_block",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "我想你一定惦记着上面的苔藓块，用刚刚砍树得到的木头搭上去吧",
+      "等等，原木不能分解成木板？"
+    ],
+    "groups": {
+      "章节1 --- 虚空法则": {
+        "position": [
+          300,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:flowering_azalea",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "全部带走"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

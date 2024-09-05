@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "6auy57qn54au54kj"
+  ],
+  "tasks": {
+    "tieding": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_ingot",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "aan": {
+      "item": {
+        "id": "minecraft:raw_iron",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "这个配方需要红石，我想你需要一次性做很多红石"
+    ],
+    "groups": {
+      "章节1 --- 虚空法则": {
+        "position": [
+          840,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "来hardcore的"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

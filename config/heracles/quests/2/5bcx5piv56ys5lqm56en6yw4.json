@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "5yq6kab56in5yqg5yip55so4ocm4ocm"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "chemlib:nitric_acid",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "bb": {
+      "item": {
+        "id": "chemlib:hydrochloric_acid",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "现在你获得了硝酸，铁砧时代的化工线到此为止"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          540,
+          60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "chemlib:nitric_acid",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "就是第二种酸"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

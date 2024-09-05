@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "56u5_feat_44gh44kh44gt",
+    "5l2g5li65lua5lmi5lin5y675omt6jyy6jub5zgi"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "minecraft:scaffolding",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "可以像筛子一样从粉尘里获得矿物"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          540,
+          -60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:scaffolding",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "不是让你爬的"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

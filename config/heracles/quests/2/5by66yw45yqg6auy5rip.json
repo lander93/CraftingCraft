@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "5bcx5piv56ys5lqm56en6yw4",
+    "5peg5lit55sfw"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "chemlib:tungsten",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "管他溶不溶，造它就完啦"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          600,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "chemlib:tungsten",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "强酸加高温"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

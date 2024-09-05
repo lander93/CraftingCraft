@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "6jma56m655qe5yqb6yep77yf"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "anvilcraft:void_matter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "你猜为啥标题叫这个，把它扔进虚空就知道了"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          720,
+          -30
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "anvilcraft:void_matter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "回弹大师"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

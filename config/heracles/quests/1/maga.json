@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "5zci5oiq77yb4ocm4ocm5yw77yf"
+  ],
+  "tasks": {
+    "tiezhen": {
+      "type": "heracles:item",
+      "item": "minecraft:anvil",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "aaj": {
+      "item": {
+        "id": "mekanism:clump_iron",
+        "count": 48
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Make Anvils Great Again！"
+    ],
+    "groups": {
+      "章节1 --- 虚空法则": {
+        "position": [
+          660,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "anvilcraft:giant_anvil",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "MAGA"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

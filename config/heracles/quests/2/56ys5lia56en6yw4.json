@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "5bcp5bd5yir5zc46lb5y675lqg"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "chemlib:hydrochloric_acid",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "bb": {
+      "item": {
+        "id": "chemlib:hydrochloric_acid",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "这是盐酸，你的坐牢化工之旅的开始"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          300,
+          30
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "chemlib:hydrochloric_acid",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "第一种酸"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

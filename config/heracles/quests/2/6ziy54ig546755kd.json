@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "6auy6ls155qe5p2q5paz"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "anvilcraft:tempering_glass",
+      "amount": 8,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "刷怪房理想材料"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          600,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "anvilcraft:tempering_glass",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "防爆玻璃"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

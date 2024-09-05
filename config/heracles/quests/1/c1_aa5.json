@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "c1_aa3"
+  ],
+  "tasks": {
+    "C1_AA5_item_1": {
+      "type": "heracles:item",
+      "item": "botania:living_root",
+      "amount": 64,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "aac": {
+      "item": {
+        "id": "botania:root",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "看到上面的树了吧，你手上的泥土正好够你碰到它，用连锁把它挖下来"
+    ],
+    "groups": {
+      "章节1 --- 虚空法则": {
+        "position": [
+          180,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "quark:oak_hedge",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "不要让树浮空"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

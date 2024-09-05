@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "57qi6imy6io95yqg54ot"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "chemlib:graphite",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "为了让红宝石有点用，这个配方消耗岩浆"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          240,
+          -60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "chemlib:graphite",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "高温压缩"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

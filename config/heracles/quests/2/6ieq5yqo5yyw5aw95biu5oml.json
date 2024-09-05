@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "6auy57qn6ieq5yqo5yyw"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "anvilcraft:crab_trap",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "ab": {
+      "type": "heracles:item",
+      "item": "anvilcraft:block_placer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "合成一个蟹笼，把它放在水里就会有一堆物品，其中有蟹钳，可以合成方块放置器，被铁砧砸或接受红石信号都可以放方块，从背后的箱子里获取需要放置的方块"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          -180,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "anvilcraft:block_placer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "自动化好帮手"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

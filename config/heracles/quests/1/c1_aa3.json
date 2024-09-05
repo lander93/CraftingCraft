@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "c1_aa2"
+  ],
+  "tasks": {
+    "C1_AA3_item_1": {
+      "type": "heracles:item",
+      "item": "minecraft:dirt",
+      "amount": 9,
+      "collection": "AUTOMATIC"
+    },
+    "C1_AA3_item_2": {
+      "type": "heracles:item",
+      "item": "botania:pebble",
+      "amount": 64,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "aab": {
+      "item": {
+        "id": "botania:pebble",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "基岩岛上有一些土，似乎可以利用一下",
+      "",
+      "",
+      "/4/虚空法则：shift+右键可以从泥土中获得无限的石块/4/"
+    ],
+    "groups": {
+      "章节1 --- 虚空法则": {
+        "position": [
+          120,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:dirt_rod",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "要致富，先啃土……"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

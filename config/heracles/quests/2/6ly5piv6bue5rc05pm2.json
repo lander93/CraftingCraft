@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "5lq66ycg5rc05pm25rse"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "anvilcraft:topaz",
+      "amount": 2,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "听上去有点熟悉……"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          120,
+          -1
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "anvilcraft:topaz",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "还是黄水晶"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

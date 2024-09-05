@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "6jma56m655qe5yqb6yep77yf"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "anvilcraft:earth_core_shard",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "大地？这里只有虚空！"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          720,
+          -90
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "anvilcraft:earth_core_shard",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "大地碎片"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

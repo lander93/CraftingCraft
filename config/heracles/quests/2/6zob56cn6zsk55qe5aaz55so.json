@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "5z656ga6zob56cn5ase55cg"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "左键可以模拟铁砧锤击，右键可以作为扳手使用，戴在（？头上可以查看电网的相关信息"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          -60,
+          60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "anvilcraft:anvil_hammer",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "铁砧锤的妙用"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

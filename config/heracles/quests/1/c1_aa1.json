@@ -1,0 +1,52 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "C1_AA1_check": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "renwushu": {
+      "item": {
+        "id": "heracles:quest_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      " 你醒来了，但周围没有熟悉的土地和树木，只有无尽的虚空……"
+    ],
+    "groups": {
+      "章节1 --- 虚空法则": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enderio:guardian_diode",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "新的开始"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

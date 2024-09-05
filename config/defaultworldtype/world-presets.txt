@@ -1,0 +1,9 @@
+8 possible world presets found:
+- "minecraft:amplified"
+- "minecraft:normal"
+- "gardenofglass:gardenofglass"
+- "minecraft:debug_all_block_states"
+- "minecraft:large_biomes"
+- "minecraft:single_biome_surface"
+- "skyblockbuilder:skyblock"
+- "minecraft:flat"

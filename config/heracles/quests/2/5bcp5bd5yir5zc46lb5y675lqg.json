@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "6zu355s15lml5yqb",
+    "5rw35rc05pms55uq"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "chemlib:chlorine",
+      "amount": 32,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "用NaCl右键压电晶体获得Cl2",
+      "",
+      "压电晶体带电，可以电解NaCl，这很合理"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          240,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "chemlib:chlorine",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "小心别吸进去了"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

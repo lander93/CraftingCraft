@@ -1,0 +1,75 @@
+{
+  "dependencies": [
+    "5awx5aid5bya5ael"
+  ],
+  "tasks": {
+    "huosai": {
+      "type": "heracles:item",
+      "item": "minecraft:piston",
+      "amount": 2,
+      "collection": "AUTOMATIC"
+    },
+    "fasheqi": {
+      "type": "heracles:item",
+      "item": "minecraft:dispenser",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "aah": {
+      "item": {
+        "id": "minecraft:cobblestone",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "活塞和发射器在此阶段只能通过多方块结构合成",
+      "",
+      "活塞：以红石火把为中心，在同一高度上：",
+      "               空气    圆石    空气",
+      "               木板    红石火把    木板",
+      "               空气    木板    空气",
+      "                用至少16个铁碎块右键红石火把来合成",
+      "",
+      "发射器：以活塞为中心，在同一平面上：",
+      "            y3  空气    圆石    空气",
+      "            y2  圆石    活塞    圆石",
+      "            y1  空气    圆石    空气",
+      "                    用至少2个红石根右键活塞来合成"
+    ],
+    "groups": {
+      "章节1 --- 虚空法则": {
+        "position": [
+          540,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mm:blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "前卫的合成方式"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

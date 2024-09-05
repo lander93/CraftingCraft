@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "5a86k66"
+  ],
+  "tasks": {
+    "aa": {
+      "type": "heracles:item",
+      "item": "anvilcraft:stamping_platform",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "ab": {
+      "type": "heracles:item",
+      "item": "minecraft:cauldron",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "ac": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_trapdoor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "ad": {
+      "type": "heracles:item",
+      "item": "minecraft:stonecutter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "你可以在JEI/EMI中查看铁砧的相关配方，但铁砧的有些特性没有在配方表里",
+      "",
+      "*铁砧砸到方块时，若方块下面是切石机，则破坏该方块",
+      "*铁砧砸到生物时，若生物损失血量达到最大生命值的40%，则生成该生物死亡时的掉落物",
+      "*铁砧砸到红石块时，将会使与红石块同层的红石熄灭1tick",
+      "*铁砧砸到刷怪笼时，将会使刷怪笼强制性刷怪"
+    ],
+    "groups": {
+      "章节2 --- 铁砧时代": {
+        "position": [
+          -60,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "anvilcraft:stamping_platform",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "基础铁砧处理"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}
