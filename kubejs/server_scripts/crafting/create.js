@@ -1502,11 +1502,10 @@ ServerEvents.recipes((event) => {
 
   CREATE_mechanicalCrafting(
     "48x create:fluid_pipe",
-    ["AAACBCAAA", "         ", "AAACBCAAA"],
+    ["AAAABAAAA", "         ", "AAAABAAAA"],
     {
       A: "create:brass_sheet",
       B: "create_dd:netherite_casing",
-      C: "create_dd:rubber",
     }
   );
 
@@ -1626,12 +1625,18 @@ ServerEvents.recipes((event) => {
     B: "create_dd:rubber",
   });
 
+  SHAPED("4x create:belt_connector", ["AAA", " B ", "AAA"], {
+    A: "minecraft:dried_kelp",
+    B: "create:chute",
+  });
+
   CREATE_mechanicalCrafting(
     "create_dd:hydraulic_press",
-    ["AAAAA", "AB BA", "ACCCA", "ADDDA", "AEEEA"],
+    ["AAAAA", "AFBFA", "ACCCA", "ADDDA", "AEEEA"],
     {
       A: "#forge:plates/brass",
       B: "create_dd:infernal_mechanism",
+      F: "create_dd:rubber",
       C: "create_dd:netherite_casing",
       D: "create:mechanical_press",
       E: "#forge:storage_blocks/brass",
@@ -1641,7 +1646,7 @@ ServerEvents.recipes((event) => {
   SHAPED("create:spout", ["AAA", "ABA", "ACA"], {
     A: "create:brass_sheet",
     B: "create:item_drain",
-    C: "minecraft:dried_kelp_block",
+    C: "create_dd:rubber",
   });
 
   CREATE_mechanicalCrafting(
@@ -1661,7 +1666,7 @@ ServerEvents.recipes((event) => {
       A: "#forge:plates/brass",
       B: "create:fluid_tank",
       C: "create:spout",
-      D: "minecraft:dried_kelp_block",
+      D: "create_dd:rubber",
       E: "#forge:storage_blocks/steel",
     }
   );
@@ -2180,5 +2185,10 @@ ServerEvents.recipes((event) => {
   SHAPELESS("create:weighted_ejector", [
     "create:depot",
     "create:mechanical_crafter",
+  ]);
+
+  CREATE_filling(Item.of(`${I2}`, 2), [
+    `${I2}`,
+    Fluid.of("create_dd:chromatic_waste", 250),
   ]);
 });
