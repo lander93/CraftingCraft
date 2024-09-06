@@ -17,6 +17,7 @@ ServerEvents.recipes((event) => {
     "create:mechanical_press",
     "create:cogwheel",
     "create:large_cogwheel",
+    "create:mechanical_mixer",
     "create:water_wheel",
     "create:large_water_wheel",
     "create:copper_valve_handle",
