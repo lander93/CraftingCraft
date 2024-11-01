@@ -341,7 +341,10 @@ ServerEvents.recipes((event) => {
     "8x minecraft:redstone",
   ]);
 
-  CREATE_cutting("create:polished_rose_quartz", "create:rose_quartz");
+  CREATE_cutting(
+    "create:polished_rose_quartz",
+    "create:rose_quartz"
+  ).processingTime(60);
 
   CREATE_assembly(
     ["create_dd:integrated_mechanism"],
@@ -2177,6 +2180,12 @@ ServerEvents.recipes((event) => {
     "create:fluid_tank"
   );
 
+  event.replaceInput(
+    { output: "create:portable_fluid_interface" },
+    "create:chute",
+    "create:portable_storage_interface"
+  );
+
   CREATE_mechanicalCrafting("create:sand_paper", ["AAAAA", "BBBBB", "AAAAA"], {
     A: "minecraft:paper",
     B: "#forge:ingots/steel",
@@ -2190,5 +2199,10 @@ ServerEvents.recipes((event) => {
   CREATE_filling(Item.of(`${I2}`, 2), [
     `${I2}`,
     Fluid.of("create_dd:chromatic_waste", 250),
+  ]);
+
+  CREATE_mixing("create_dd:smoked_planks", [
+    "minecraft:oak_log",
+    Fluid.of("minecraft:lava", 125),
   ]);
 });

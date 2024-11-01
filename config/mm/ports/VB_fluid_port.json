@@ -1,0 +1,11 @@
+{
+    "id": "void_breaker_fluid_port",
+    "controllerIds": "void_breaker_control",
+    "name": "Void Fluid Port",
+    "type": "mm:fluid",
+    "config": {
+        "rows": 1,
+        "columns": 1,
+        "slotCapacity": 1000
+    }
+}

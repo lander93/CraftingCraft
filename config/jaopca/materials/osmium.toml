@@ -15,3 +15,11 @@
 	#The color of this material.
 	color = 10661820
 
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000
+
+[crossroads]
+	#The byproduct material to output in Crossroads' Millstone.
+	byproduct = "minecraft:sand"
+

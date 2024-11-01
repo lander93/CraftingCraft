@@ -17,3 +17,7 @@
 	#The default base to use in Mekanism's Combiner to recreate ores.
 	oreBase = "#forge:cobblestone/normal"
 
+[crossroads]
+	#The byproduct material to output in Crossroads' Millstone.
+	byproduct = "minecraft:sand"
+

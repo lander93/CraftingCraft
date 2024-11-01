@@ -1,0 +1,10 @@
+{
+    "id": "original_port",
+    "controllerIds": "original_charger_control",
+    "name": "Original Port",
+    "type": "mm:item",
+    "config": {
+        "rows": 2,
+        "columns": 2
+    }
+}

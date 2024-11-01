@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mm:block/void_breaker_energy_output"
+    }
+  }
+}

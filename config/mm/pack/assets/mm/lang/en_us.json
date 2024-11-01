@@ -1,3 +1,19 @@
 {
+  "block.mm.original_charger_control": "Original Charger",
+  "block.mm.original_energy_input": "Original Energy Input",
+  "block.mm.original_energy_output": "Original Energy Output",
+  "block.mm.original_port_input": "Original Port Input",
+  "block.mm.original_port_output": "Original Port Output",
+  "block.mm.void_breaker_air_port_input": "Void Air Port Input",
+  "block.mm.void_breaker_air_port_output": "Void Air Port Output",
+  "block.mm.void_breaker_control": "Void Breaker",
+  "block.mm.void_breaker_energy_input": "Void Breaker Energy Input",
+  "block.mm.void_breaker_energy_output": "Void Breaker Energy Output",
+  "block.mm.void_breaker_fluid_port_input": "Void Fluid Port Input",
+  "block.mm.void_breaker_fluid_port_output": "Void Fluid Port Output",
+  "block.mm.void_breaker_kinetic_port_input": "Void Kinetic Port Input",
+  "block.mm.void_breaker_kinetic_port_output": "Void Kinetic Port Output",
+  "block.mm.void_breaker_port_input": "Void Port Input",
+  "block.mm.void_breaker_port_output": "Void Port Output",
   "item.mm.blueprint": "Blueprint"
 }

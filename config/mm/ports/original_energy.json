@@ -1,0 +1,11 @@
+{
+    "id": "original_energy",
+    "controllerIds": "original_charger_control",
+    "name": "Original Energy",
+    "type": "mm:energy",
+    "config": {
+        "capacity": 2000,
+        "maxReceive": 100,
+        "maxExtract": 0
+    }
+}

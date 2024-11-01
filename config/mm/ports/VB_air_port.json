@@ -1,0 +1,11 @@
+{
+    "id": "void_breaker_air_port",
+    "controllerIds": "void_breaker_control",
+    "name": "Void Air Port",
+    "type": "mm:pneumaticcraft/air",
+    "config": {
+        "danger": 20.0,
+        "critical": 25.0,
+        "volume": 16000
+    }
+}

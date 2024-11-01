@@ -165,12 +165,101 @@ ServerEvents.recipes((event) => {
     "minecraft:ender_eye",
     "minecraft:magma_cream",
     "create_dd:fallen_stargaze_singularity",
+    "minecraft:tnt",
+    "pneumaticcraft:reinforced_stone",
+    "pneumaticcraft:reinforced_bricks",
+    "pneumaticcraft:compressed_stone",
+    "pneumaticcraft:reinforced_stone_slab",
+    "minecraft:heavy_weighted_pressure_plate",
+    "pneumaticcraft:compressed_iron_block",
+    "pneumaticcraft:ingot_iron_compressed",
+    "pneumaticcraft:small_tank",
+    "pneumaticcraft:pressure_chamber_wall",
+    "pneumaticcraft:pressure_chamber_interface",
+    "pneumaticcraft:pressure_chamber_valve",
+    "create_dd:industrial_casing",
+    "pneumaticcraft:reinforced_brick_wall",
+    "pneumaticcraft:turbine_rotor",
+    "pneumaticcraft:pressure_chamber_glass",
+    "pneumaticcraft:refinery",
+    "pneumaticcraft:refinery_output",
+    "minecraft:golden_carrot",
+    "minecraft:brown_dye",
+    "pneumaticcraft:speed_upgrade",
+    "pneumaticcraft:thermal_lagging",
+    "minecraft:redstone_lamp",
+    "minecraft:green_wool",
+    "quark:shingles",
+    "pneumaticcraft:charging_station",
+    "pneumaticcraft:pressure_gauge",
+    "pneumaticcraft:air_canister",
+    "pneumaticcraft:gps_tool",
+    "pneumaticcraft:heat_sink",
+    "pneumaticcraft:gps_tool",
+    "minecraft:glass_pane",
+    "create_dd:reinforcement_plating",
+    "pneumaticcraft:reinforced_chest",
+    "pneumaticcraft:omnidirectional_hopper",
+    "pneumaticcraft:advanced_air_compressor",
+    "pneumaticcraft:assembly_controller",
+    "pneumaticcraft:security_upgrade",
+    "pneumaticcraft:pneumatic_dynamo",
+    "pneumaticcraft:flux_compressor",
+    "pneumaticcraft:module_expansion_card",
+    "pneumaticcraft:advanced_liquid_compressor",
+    "pneumaticcraft:advanced_air_compressor",
+    "pneumaticcraft:electrostatic_compressor",
+    "pneumaticcraft:gas_lift",
+    "pneumaticcraft:large_tank",
+    "pneumaticcraft:medium_tank",
+    "pneumaticcraft:liquid_compressor",
+    "pneumaticcraft:manual_compressor",
+    "pneumaticcraft:spawner_extractor",
+    "pneumaticcraft:solar_compressor",
+    "ars_nouveau:greater_experience_gem",
+    "thermal:machine_crystallizer",
+    "jaopca:gears.brass",
+    "quark:oak_hedge",
+    "minecraft:oak_wood",
+    "create_dd:infacoarse_dirt",
+    "create_dd:infasoul_sand",
+    "create_dd:infaobsidian",
+    "create_dd:spirit_log",
+    "minecraft:oak_wood",
+    "minecraft:black_dye",
+    "integrateddynamics:drying_basin",
+    "integrateddynamics:crystalized_menril_chunk",
+    "integrateddynamics:crystalized_menril_block",
+    "integrateddynamics:cable",
+    "integrateddynamics:variable",
+    "create:red_sand_paper",
+    "integrateddynamics:logic_programmer",
+    "pneumaticcraft:plastic_brick_white",
+    "integrateddynamics:materializer",
+    "anvilcraft:charger",
+    "anvilcraft:capacitor_empty",
+    "integrateddynamics:portable_logic_programmer",
+    "integrateddynamics:variable_transformer_output",
+    "integrateddynamics:variable_transformer_input",
+    "integratedtunnels:part_interface_item",
+    "integratedtunnels:part_interface_energy",
+    "integratedtunnels:part_interface_fluid",
+    "integratedtunnels:part_interface_item",
+    "integrateddynamics:logic_director",
+    "integrateddynamics:part_connector_mono_directional",
+    "integrateddynamics:menril_fence",
+    "integrateddynamics:menril_wood",
+    "minecraft:recovery_compass",
+    "rftoolsbase:dimensionalshard",
+    "minecraft:purple_stained_glass",
+    "integrateddynamics:proxy",
   ];
   Array.forEach((item) => {
     event.remove({ output: `${item}` });
   });
 
   event.remove({ output: "minecraft:glass", type: "smelting" });
+  event.remove({ output: "#forge:glass_panes" });
 
   event.remove({
     output: "minecraft:clay",
@@ -214,7 +303,38 @@ ServerEvents.recipes((event) => {
   });
 
   event.remove({
+    type: "pneumaticcraft:pressure_chamber",
+  });
+
+  event.remove({
     output: "create:portable_fluid_interface",
     input: "create_dd:sealed_mechanism",
   });
+
+  event.remove({ type: "pneumaticcraft:explosion_crafting" });
+  event.remove({
+    type: "pneumaticcraft:thermo_plant",
+  });
+  event.remove({
+    type: "pneumaticcraft:assembly_laser",
+  });
+  event.remove({
+    type: "pneumaticcraft:assembly_drill",
+  });
+  event.remove({
+    type: "pneumaticcraft:heat_frame_cooling",
+  });
+
+  event.remove({
+    input: "minecraft:fire_charge",
+    output: "#forge:ingots",
+  });
+
+  event.remove({ output: "minecraft:coarse_dirt", type: "crafting_shaped" });
+
+  event.remove({ input: "integrateddynamics:menril_log" });
+
+  event.remove({ output: "minecraft:redstone", type: "create:filling" });
+  event.remove({ output: "minecraft:glowstone_dust", type: "create:filling" });
+  event.remove({ output: "minecraft:gunpowder", type: "create:filling" });
 });

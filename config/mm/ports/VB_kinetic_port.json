@@ -1,0 +1,9 @@
+{
+    "id": "void_breaker_kinetic_port",
+    "controllerIds": "void_breaker_control",
+    "name": "Void Kinetic Port",
+    "type": "mm:create/kinetic",
+    "config": {
+      "stress": 64
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "id": "void_breaker_port",
+    "controllerIds": "void_breaker_control",
+    "name": "Void Port",
+    "type": "mm:item",
+    "config": {
+        "rows": 1,
+        "columns": 1
+    }
+}

@@ -90,5 +90,11 @@
   "minecraft:waxed": null,
   "minecraft:zombie_villager": null,
   "mm:controller_progress": null,
-  "pipez:pipe": null
+  "pipez:pipe": null,
+  "pneumaticcraft:camo": null,
+  "pneumaticcraft:entity": null,
+  "pneumaticcraft:pneumatic": null,
+  "pneumaticcraft:redstone": null,
+  "pneumaticcraft:semiblock": null,
+  "pneumaticcraft:tube_module": null
 }

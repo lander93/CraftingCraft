@@ -1,7 +1,7 @@
 ServerEvents.recipes((event) => {
-  let SHAPED = event.shaped;
-  let SHAPELESS = event.shapeless;
-  let EIO_ALLOY = event.recipes.enderio.alloy_smelting;
+  const SHAPED = event.shaped;
+  const SHAPELESS = event.shapeless;
+  const EIO_ALLOY = event.recipes.enderio.alloy_smelting;
 
   global.anvil_generic = (output, inputs, inputs_count, base, outChance) => {
     event.custom({

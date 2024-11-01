@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "mm:block/void_breaker_control",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "mm:block/void_breaker_control",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "mm:block/void_breaker_control"
+    },
+    "facing=west": {
+      "model": "mm:block/void_breaker_control",
+      "y": 90
+    }
+  }
+}

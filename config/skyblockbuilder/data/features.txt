@@ -66,6 +66,10 @@ create_dd:striated_ores_overworld
 create_dd:striated_ores_savanna
 create_dd:striated_raw_ores_overworld
 create_dd:tin_ore
+crossroads:empty
+crossroads:ruby_ore
+crossroads:tin_ore
+crossroads:void_crystal_ore
 draconicevolution:chaos_island
 draconicevolution:end_comet
 draconicevolution:end_draconium_ore
@@ -290,6 +294,7 @@ minecraft:warped_forest_vegetation_bonemeal
 minecraft:warped_fungus
 minecraft:warped_fungus_planted
 minecraft:weeping_vines
+pneumaticcraft:oil_lake
 quark:ancient_tree
 quark:blue_blossom
 quark:lavender_blossom

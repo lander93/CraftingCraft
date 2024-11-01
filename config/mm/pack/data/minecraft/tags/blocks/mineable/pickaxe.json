@@ -1,3 +1,20 @@
 {
-  "values": []
+  "values": [
+    "mm:original_charger_control",
+    "mm:void_breaker_control",
+    "mm:original_energy_input",
+    "mm:original_energy_output",
+    "mm:original_port_input",
+    "mm:original_port_output",
+    "mm:void_breaker_air_port_input",
+    "mm:void_breaker_air_port_output",
+    "mm:void_breaker_energy_input",
+    "mm:void_breaker_energy_output",
+    "mm:void_breaker_fluid_port_input",
+    "mm:void_breaker_fluid_port_output",
+    "mm:void_breaker_kinetic_port_input",
+    "mm:void_breaker_kinetic_port_output",
+    "mm:void_breaker_port_input",
+    "mm:void_breaker_port_output"
+  ]
 }

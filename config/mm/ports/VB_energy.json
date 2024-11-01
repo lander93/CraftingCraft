@@ -1,0 +1,11 @@
+{
+    "id": "void_breaker_energy",
+    "controllerIds": "void_breaker_control",
+    "name": "Void Breaker Energy",
+    "type": "mm:energy",
+    "config": {
+        "capacity": 100000,
+        "maxReceive": 1000,
+        "maxExtract": 0
+    }
+}
